@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "ios": {
+      "bundleIdentifier": "com.limkokwing.fresh",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.limkokwing.fresh"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "900a7b72-2259-4dec-852e-1324fa61443d"
+      }
+    },
+    "owner": "bounce_guro"
+  }
+}
