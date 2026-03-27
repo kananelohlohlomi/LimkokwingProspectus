@@ -13,7 +13,6 @@ export const FACULTIES = [
   {
     id: 'design',
     name: 'Faculty of Design Innovation',
-    // use the imported image object instead of a string name
     image: designImg,
     courses: [
       { id: 'creative-advertising', name: 'Diploma in Creative Advertising', description: 'Develop campaigns that move people. Learn the full process from brief to concept to execution across digital and traditional media.', requirements: 'Minimum 3 C grades and 2 D passes with at least a D in English. Portfolio required.', outcomes: 'Art Director, Brand Strategist, Creative Consultant, Copywriter.', duration: '3 Years', image: 'https://i.pinimg.com/1200x/05/ae/dd/05aedd2bf9adcb5c64363f2681cca69f.jpg', video: 'https://youtu.be/fC_5ewWI3HI?si=1EF1ng4eT3SYLlp7' },
