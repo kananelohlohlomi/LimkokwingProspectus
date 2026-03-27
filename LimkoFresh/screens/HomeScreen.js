@@ -8,7 +8,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useTheme } from '../theme';
 import { NEWS, FACULTIES } from '../data';
-import logoImg from '../assets/logo.png'; // <-- local logo for Header
+import logoImg from '../assets/logo.png'; 
 
 const { width } = Dimensions.get('window');
 const NEWS_W = width - 48;
@@ -79,7 +79,7 @@ export default function HomeScreen({ navigation }) {
 
   return (
     <View style={d.root}>
-      <Header logo={logoImg} /> {/* <-- pass local logo to Header */}
+      <Header logo={logoImg} /> // pass local logo to Header 
       <ScrollView showsVerticalScrollIndicator={false} keyboardShouldPersistTaps="handled">
 
         <View style={d.welcomeBox}>
